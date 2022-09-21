@@ -2,11 +2,11 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div>
-      <div>
-        <p className="first-letter:text-green-500">Serving Strata and Commercial clients across Vancouver Island.</p>
-        <p className="first-letter:text-green-500">We provide full-service landscaping packages year-round.</p>
-        <p className="first-letter:text-green-500">We are currently looking to expand our portfolio for the 2023 season.</p>
+    <div className="flex justify-center items-center">
+      <div className="bg-black/75 p-4 rounded-md text-white mt-8 text-center text-xl">
+        <p className="first-letter:text-green-500 p-4">Serving Strata and Commercial clients across Vancouver Island.</p>
+        <p className="first-letter:text-green-500 p-4">We provide full-service landscaping packages year-round.</p>
+        <p className="first-letter:text-green-500 p-4">We are currently looking to expand our portfolio for the 2023 season.</p>
       </div>
       <div className="max-w-4xl m-14 p-5 grid grid-cols-12 row grid-rows-auto gap-4">
           <img className="overflow-hidden bg-[#fff] rounded-md border-8 border-[#fff]ml-auto mr-auto w-full h-full col-span-4 grayscale  hover:grayscale-0" src="/up3.jpg "></img>
